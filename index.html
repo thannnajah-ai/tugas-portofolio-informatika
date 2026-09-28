@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Nathan Fw</title>
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <header id="navbar">
+      <nav>
+        <div class="logo">Porto<span>Folio.</span></div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <p class="greeting">Halo semua, saya</p>
+          <h1>Nathan F.W. <span class="highlight">Di Sini</span></h1>
+          <h2>Seorang Pelajar &amp; Calon Web Developer</h2>
+          <p class="description">
+            Selamat datang di portofolio saya. Saya sedang belajar membuat website
+            yang menarik, modern, dan interaktif.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Karya Saya</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-glow"></div>
+          <img src="https://uploads.onecompiler.io/44ztrvatv/44ztrwgad/nathan.jpg" alt="Foto Profil Nathan Fw" />
+        </div>
+      </section>
+
+      <!-- Tentang & Keahlian -->
+      <section id="about" class="about">
+        <h2 class="section-title">Tentang <span>Saya</span></h2>
+        
+        <div class="about-content">
+          <!-- Teks Tentang -->
+          <div class="about-text card-reveal">
+            <h3>Siapa Saya?</h3>
+            <p>
+              Saya adalah seorang pelajar yang memiliki ketertarikan besar di dunia teknologi, khususnya dalam pengembangan website (Web Development).
+            </p>
+            <p>
+              Saya senang merancang antarmuka web yang bersih dan terus mempelajari hal baru seputar coding. Tujuan saya adalah menjadi seorang Web Developer profesional yang mampu menciptakan solusi digital bermanfaat.
+            </p>
+          </div>
+
+          <!-- Daftar Keahlian -->
+          <div class="about-skills card-reveal">
+            <h3>Keahlian &amp; Tools</h3>
+            <div class="skills-list">
+              <span class="skill-item">HTML5</span>
+              <span class="skill-item">CSS3</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">VS Code</span>
+              <span class="skill-item">WordPress</span>
+              <span class="skill-item">Git &amp; GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyek -->
+      <section id="projects" class="projects">
+        <h2 class="section-title">Karya <span>Saya</span></h2>
+        
+        <div class="project-grid">
+          <!-- Kartu Proyek 1 -->
+          <div class="project-card card-reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=900&q=80" alt="Proyek Sistem Absensi">
+            </div>
+            <div class="project-info">
+              <h3>Sistem Absensi</h3>
+              <p>Aplikasi web untuk mencatat kehadiran secara digital dengan fitur rekap otomatis dan laporan harian.</p>
+              <button class="btn-small project-button" 
+                data-title="Sistem Absensi" 
+                data-image="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=900&q=80" 
+                data-description="Sistem absensi digital yang memudahkan pencatatan kehadiran siswa atau karyawan secara cepat, rapi, dan otomatis. Fitur utamanya mencakup data hadir, izin, dan rekap presensi dengan laporan harian.">
+                Lihat Detail
+              </button>
+            </div>
+          </div>
+
+          <!-- Kartu Proyek 2 -->
+          <div class="project-card card-reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="Proyek Koper Grosir">
+            </div>
+            <div class="project-info">
+              <h3>Koper Grosir</h3>
+              <p>Katalog produk online untuk menampilkan daftar barang grosir beserta harga dan ketersediaan stok.</p>
+              <button class="btn-small project-button" 
+                data-title="Koper Grosir" 
+                data-image="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" 
+                data-description="Website katalog grosir yang menampilkan produk, harga, dan kategori tertentu agar pelanggan dapat melihat stok dan memilih barang dengan mudah melalui platform online.">
+                Lihat Detail
+              </button>
+            </div>
+          </div>
+
+          <!-- Kartu Proyek 3 -->
+          <div class="project-card card-reveal">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Proyek PassKeeper">
+            </div>
+            <div class="project-info">
+              <h3>PassKeeper</h3>
+              <p>Aplikasi penyimpanan kredensial akun sederhana untuk mengelola kata sandi secara aman dan terorganisir.</p>
+              <button class="btn-small project-button" 
+                data-title="PassKeeper" 
+                data-image="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" 
+                data-description="Aplikasi penyimpanan kata sandi yang dibuat untuk membantu pengguna menyimpan data login secara aman dan terorganisir, dengan tampilan yang sederhana dan mudah digunakan.">
+                Lihat Detail
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontak -->
+      <section id="contact" class="contact">
+        <h2 class="section-title">Hubungi <span>Saya</span></h2>
+
+        <div class="contact-container">
+          <!-- Info Kontak -->
+          <div class="contact-info card-reveal">
+            <h3>Mari Berkolaborasi!</h3>
+            <p>
+              Apakah Anda memiliki ide proyek, tawaran kerja sama, atau pertanyaan? Jangan ragu untuk menghubungi saya.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <strong>Email:</strong> 
+                <a href="mailto:thannnajah@gmail.com">thannnajah@gmail.com</a>
+              </li>
+              <li>
+                <strong>WhatsApp:</strong> 
+                <a href="https://wa.me/6285725276231" target="_blank" rel="noopener">0857-2527-6231</a>
+              </li>
+              <li>
+                <strong>Lokasi:</strong> Yogyakarta, Indonesia
+              </li>
+            </ul>
+          </div>
+
+          <!-- Formulir Kontak -->
+          <form class="contact-form card-reveal" id="form-kontak">
+            <input type="text" id="name" placeholder="Nama Lengkap Anda" required />
+            <input type="email" id="email" placeholder="Email Anda" required />
+            <textarea id="message" placeholder="Tulis pesan Anda di sini..." rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal Detail Proyek -->
+    <div class="modal" id="projectModal" aria-hidden="true" role="dialog">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Tutup modal">&times;</button>
+        <img id="modalImage" src="" alt="Preview proyek" />
+        <h3 id="modalTitle">Judul Proyek</h3>
+        <p id="modalDescription">Deskripsi proyek.</p>
+      </div>
+    </div>
+
+    <!-- Menghubungkan file Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
